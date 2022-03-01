@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
-import GlobalStyles from './styles/globalStyles';
+
+import Home from './pages/home';
 
 const App = () => {
   return (
     <Fragment>
-      <GlobalStyles />
+      <Home />
     </Fragment>
   );
 };
