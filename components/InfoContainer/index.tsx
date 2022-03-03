@@ -8,14 +8,14 @@ import SearchBar from '../SearchBar';
 const InfoContainer = () => {
   return (
     <Container className="display-flex">
-      <Image image="https://hpe-developer-portal.s3.amazonaws.com/uploads/media/2019/8/typescriptimage-1568052628959.jpeg" />
+      <Image image="https://i.redd.it/84yls3nv4ei81.jpg" />
       <SearchBar />
       <div className="content display-flex">
-        <div className="time-date display-flex">
+        <div className="info time-date display-flex">
           <span className="title">7:10 AM</span>
           <span>February, thuerday, 28, 2020</span>
         </div>
-        <div className="local display-flex">
+        <div className="info local display-flex">
           <span className="title">Osasco</span>
           <span>São Paulo</span>
         </div>
