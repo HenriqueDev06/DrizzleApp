@@ -2,11 +2,13 @@ import React, { Fragment } from 'react';
 
 import { Container, Grid } from './styles';
 
+import InfoContainer from '../../components/InfoContainer';
+
 const Home = () => {
   return (
     <Container>
       <Grid>
-        <div className="a1">dwada</div>
+        <InfoContainer>dwada</InfoContainer>
         <div className="b1">awdad</div>
       </Grid>
     </Container>
