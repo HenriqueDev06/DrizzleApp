@@ -7,10 +7,11 @@ export const Container = styled.section`
   background: ${(props) => props.theme.background};
 
   display: grid;
-  grid-template-columns: 1.5fr auto auto 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto 2fr;
 
   .info-1{
     height: 100%;
+    padding: 0px 30px;
     flex-direction: column;
 
     img{
@@ -95,5 +96,11 @@ export const Container = styled.section`
     #0c54ab
     ;
     
+  }
+  
+  .infos{
+    justify-content: flex-end !important;
+    padding: 0px 20px;
+    padding-left: 50px;
   }
 `;

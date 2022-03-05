@@ -18,20 +18,22 @@ const ClimateContainer = () => {
         <span>Temperatura</span>
         <span>Térmica</span>
       </div>
-      <div className="info display-flex">
-        <WiHumidity id="humidity" />
-        <p>Umidade</p>
-        <span>20</span>
-      </div>
-      <div className="info display-flex">
-        <WiSunrise id="uv" />
-        <p>Raios U</p>
-        <span>20</span>
-      </div>
-      <div className="info display-flex">
-        <WiCloudy id="cloud" />
-        <p>Nuvens</p>
-        <span>20</span>
+      <div className="infos display-flex">
+        <div className="info display-flex">
+          <WiHumidity id="humidity" />
+          <p>Umidade</p>
+          <span>20</span>
+        </div>
+        <div className="info display-flex">
+          <WiSunrise id="uv" />
+          <p>Raios Uv</p>
+          <span>20</span>
+        </div>
+        <div className="info display-flex">
+          <WiCloudy id="cloud" />
+          <p>Nuvens</p>
+          <span>20</span>
+        </div>
       </div>
     </Container>
   );
