@@ -64,7 +64,7 @@ export const Container = styled.section`
     span{
       font-weight: 400;
       font-size: 1.1rem;
-      margin: 20px 0px;      
+      margin: 20px 0px; 
     }
 
     p{
@@ -101,6 +101,6 @@ export const Container = styled.section`
   .infos{
     justify-content: flex-end !important;
     padding: 0px 20px;
-    padding-left: 50px;
+    margin-right: 40px;
   }
 `;
